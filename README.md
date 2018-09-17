@@ -8,10 +8,11 @@ conf目录下的StorageCfg.json文件为数据库和Redis服务器配置文件�
 * 多线程版 ./recommend lfm mp
 
 数据表pms_product_visit_record必须有的字段：
-表头|表头|表头
----|:--:|---:
-内容|内容|内容
-内容|内容|内容
+<table>
+<tr>
+  <td>字段</td><td>类型</td><td>说明</td>
+</tr>
+</table>
 
 visitor string 访问者
 spu int 
