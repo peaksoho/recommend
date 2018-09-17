@@ -11,9 +11,14 @@ conf目录下的StorageCfg.json文件为数据库和Redis服务器配置文件�
 <table>
 <tr>
   <td>字段</td><td>类型</td><td>说明</td>
+  <td>visitor</td><td>String</td><td>访问者</td>
+  <td>spu</td><td>Int</td><td>SPU</td>
+  <td>sku</td><td>Int</td><td>SKU</td>
+  <td>date</td><td>Date</td><td>访问日期</td>
+  <td>weight</td><td>Int</td><td>操作权重</td>
+  <td>click_num</td><td>Int</td><td>点击次数</td>
+  <td>cart_num</td><td>Int</td><td>加购次数</td>
+  <td>fav_num</td><td>Int</td><td>收藏次数</td>
+  <td>order_num</td><td>Int</td><td>下单次数</td>
 </tr>
 </table>
-
-visitor string 访问者
-spu int 
-,sku,date,weight,click_num,cart_num,fav_num,order_num
