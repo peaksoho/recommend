@@ -1,6 +1,6 @@
 /*
 COS相似推荐算法（Todo）
-@author peak
+@author peaksoho
 */
 
 package cos
