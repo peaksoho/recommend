@@ -1,7 +1,7 @@
 /*
 推荐系统程序
 支持LFM模型(Latent Factor Mode，潜在因子算法)、COS相似推荐算法（Todo）
-执行方法：recommend [lfm|cos]
+执行方法：recommend [lfm [mp]|cos]
 @author peaksoho
 */
 
