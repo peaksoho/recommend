@@ -1,0 +1,78 @@
+{
+	"mysql":{
+		"recommend":{
+			"master":{
+		        "host"      	:"127.0.0.1",
+		        "port"      	:3306,
+		        "username"  	:"root",
+		        "password"  	:"123456",
+		        "dbname"    	:"recommend",
+		        "charset"   	:"utf8",
+				"maxIdle"		:2,
+				"maxOpen"		:30,
+				"idleTimeout"	:60
+			},
+			"slaver":{
+		        "host"      	:"127.0.0.1",
+		        "port"      	:3306,
+		        "username"  	:"root",
+		        "password"  	:"123456",
+		        "dbname"    	:"recommend",
+		        "charset"   	:"utf8",
+				"maxIdle"		:2,
+				"maxOpen"		:30,
+				"idleTimeout"	:60
+			}
+		},
+		"pms":{
+			"master":{
+		        "host"      	:"127.0.0.1",
+		        "port"      	:3306,
+		        "username"  	:"root",
+		        "password"  	:"123456",
+		        "dbname"    	:"pms",
+		        "charset"   	:"utf8",
+				"maxIdle"		:2,
+				"maxOpen"		:30,
+				"idleTimeout"	:60
+			},
+			"slaver":{
+		        "host"      	:"127.0.0.1",
+		        "port"      	:3306,
+		        "username"  	:"root",
+		        "password"  	:"123456",
+		        "dbname"    	:"pms",
+		        "charset"   	:"utf8",
+				"maxIdle"		:2,
+				"maxOpen"		:30,
+				"idleTimeout"	:60
+			}
+		}
+	},
+	"redis":{
+		"nosql":{
+			"address"   	:"127.0.0.1:6379",
+			"password"		:"",
+			"maxIdle"		:8,
+			"maxActive"		:1024,
+			"db"			:0, 
+			"idleTimeout"	:60
+		},
+		"recommend":{
+			"address"   	:"127.0.0.1:6379",
+			"password"		:"",
+			"maxIdle"		:8,
+			"maxActive"		:1024,
+			"db"			:1, 
+			"idleTimeout"	:60
+		},
+		"tmp":{
+			"address"   	:"127.0.0.1:6379",
+			"password"		:"",
+			"maxIdle"		:8,
+			"maxActive"		:1024,
+			"db"			:2,
+			"idleTimeout"	:60
+		}
+	}
+}
