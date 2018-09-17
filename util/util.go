@@ -1,7 +1,6 @@
 /*
 公共函数
-@author peak
-@date 2018-03-23
+@author peaksoho
 */
 package util
 
